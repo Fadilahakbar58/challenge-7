@@ -1,0 +1,44 @@
+body {
+    font-family: Helvetica;
+    overflow-x: hidden;
+}
+
+#filter-box {
+    position: absolute;
+    z-index: 1090;
+    margin-top: -70px;
+    margin-left: 90px;
+    
+}
+
+.form-control:focus {
+    border-color: #5CB85F;
+    box-shadow: 0 0 0 0.25rem rgba(201, 231, 202, 1);
+
+}
+
+.background-filter {
+    background-color: rgba(0,0,0,.5);
+    height: 100vh;
+    position: fixed;
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.nav-item-btn {
+background: #5CB85F;
+text-decoration: none;
+font-size: 14px;
+font-weight: bold;
+color: #FFFFFF;
+padding: 8px 15px;
+border-radius: 2px;
+}
+
+.nav-item-btn:hover {
+background: #409b43;
+color: #FFFFFF;
+}
